@@ -1,10 +1,10 @@
 {
   "mappings": [
-    "/content/aem-boilerplate/:/",
-    "/content/aem-boilerplate/configuration:/.helix/config.json",
-    "/content/aem-boilerplate/metadata:/metadata.json"
+    "/content/auspos-digital-id/:/",
+    "/content/auspos-digital-id/configuration:/.helix/config.json",
+    "/content/auspos-digital-id/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/aem-boilerplate/"
+    "/content/auspos-digital-id/"
   ]
 }
