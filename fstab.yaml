@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p7655-e103198.adobeaemcloud.com/bin/franklin.delivery/sarakulkAUS/aem-edge-delivery-demo/main"
+    url: "https://author-p7655-e103198.adobeaemcloud.com/bin/franklin.delivery/sarakulkAUS/Auspos-digitalid-eds/main"
     type: "markup"
     suffix: ".html"
