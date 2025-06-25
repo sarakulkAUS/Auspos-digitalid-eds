@@ -1,27 +1,92 @@
+.cards{
+  margin: 0px auto;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+.cards-card-body{
+  display: flex;
+  flex-direction: column;
+}
+
 .cards > ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0px, 1fr));
+  justify-content: center;
+  gap: 20px;
   list-style: none;
   margin: 0;
   padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  grid-gap: 24px;
+ 
 }
 
 .cards > ul > li {
-  border: 1px solid #dadada;
   background-color: var(--background-color);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 555px;
+  height: 278px;
 }
 
 .cards .cards-card-body {
-  margin: 16px;
+  padding: 0px 50px;
+  margin-top: 20px;
+  line-height: 1.5;
+  font-family: 'APTypeProText, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif';
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  font-size: 16px;
 }
 
-.cards .cards-card-image {
-  line-height: 0;
+.cards .button{
+  max-width: unset;
+  display: block;
+  width: 200px !important;
+  height: 40px !important;
+  border-radius: 10px !important;
+  text-align: center;
+  background-color: #dc1928 !important;
+  font-weight: 500 !important;
+  margin: 16px auto 0 auto;
+  transition: background-color 0.2s ease-in-out;
+}
+.button:hover {
+  background-color: #c10202 !important;
+  transition: background-color 0.3s ease-in-out;
 }
 
-.cards > ul > li img {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+@media (max-width: 1200px) {
+  .cards > ul {
+    grid-template-columns: 1fr;
+  }
+  .cards > ul > li {
+    width: 95vw;
+    max-width: 100%;
+    min-width: 0;
+    height: auto;
+  }
+  .cards .cards-card-body {
+    padding: 0 25px;
+    font-size: 15px;
+    box-sizing: border-box;
+    width: 100%;
+
+    h1,h2,h3,h4{
+      font-size: 20px;
+    }
+    p{
+      font-size: 14px;
+      line-height: normal;
+      color: #4d4d54;
+      opacity: 0.9;
+    }
+  }
 }

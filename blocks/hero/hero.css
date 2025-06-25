@@ -1,3 +1,6 @@
+div{
+  max-width: unset !important;
+}
 .hero-container .hero-wrapper {
   max-width: unset;
   padding: 0;
@@ -5,11 +8,14 @@
 
 .hero {
   position: relative;
-  padding: 40px 24px;
+  padding: 0;
   min-height: 300px;
 }
 
 .hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 10%;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -17,9 +23,7 @@
 }
 
 .hero picture {
-  position: absolute;
-  z-index: -1;
-  inset: 0;
+  position: relative;
   object-fit: cover;
   box-sizing: border-box;
 }
@@ -32,6 +36,6 @@
 
 @media (width >= 900px) {
   .hero {
-    padding: 40px 32px;
+    padding: 0;
   }
 }

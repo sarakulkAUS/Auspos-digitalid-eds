@@ -1,0 +1,120 @@
+.hero-banner {
+    width: 100%;
+    height: 100%;
+    font-family: APTypeProText, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+}
+
+.hero-banner-block {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-banner--elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    /* Add styles for the picture element and align it center of the page */
+    picture {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        object-fit: cover;
+        object-position: center top;
+    }
+}
+
+.hero-banner--picture {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 20%;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    border-left: 6px solid rgb(220, 25, 40);
+    padding: 30px;
+    max-width: 400px;
+    background-color: white;
+    font-family: APTypeProText, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+
+    p {
+        display: flex;
+        gap: 20px;
+        font-size: 14px;
+    }
+    .hero-overlay--text {
+        color: #4d4d54;
+        font-size: 16px;
+        line-height: 1.5;
+        opacity: 0.7;
+    }
+}
+
+@media (max-width: 900px) {
+    .hero-banner--elements {
+        display: block;
+        position: static;
+    }
+    .hero-overlay {
+        position: static;
+        top: 0;
+        left: auto;
+        right: auto;
+        margin-left: 0;
+        margin-top: 10px;
+        width: 100%;
+        max-width: 100vw;;
+        box-sizing: border-box;
+        z-index: auto;
+    }
+    .hero-banner--picture {
+        width: 100vw;
+        max-width: 100vw;
+        height: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero-banner--picture {
+        width: 100vw;
+        max-width: 100vw;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero-overlay {
+        padding: 8px;
+        
+        h1, h2 {
+            font-size: 1.2em;
+        }
+
+        p {
+            font-size: 0.9em;
+        }
+
+        picture {
+            width: 100%;
+            height: auto;
+        }
+    }
+    .hero-banner--picture {
+        width: 100vw;
+        max-width: 100vw;
+        object-fit: cover;
+    }
+}
