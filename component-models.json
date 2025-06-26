@@ -222,11 +222,11 @@
         "component": "reference",
         "valueType": "string",
         "name": "image",
-        "label": "Image",
+        "label": "Hero Image",
         "multi": false
       },
       {
-        "component": "text",
+        "component": "richtext",
         "valueType": "string",
         "name": "heading",
         "label": "Heading",
@@ -235,14 +235,14 @@
       {
         "component": "richtext",
         "name": "subText",
-        "value": "",
         "label": "SubText",
-        "valueType": "string"
+        "valueType": "string",
+        "value": ""
       },
       {
         "component": "reference",
         "valueType": "string",
-        "name": "appImage",
+        "name": "image",
         "label": "App Images",
         "multi": true
       }
