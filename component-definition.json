@@ -166,7 +166,10 @@
                 "resourceType": "core/franklin/components/block/v1/block",
                 "template": {
                   "name": "Hero Overlay",
-                  "model": "hero-overlay"
+                  "model": "hero-overlay",
+                  "image": "/content/dam/auspos/hero-banner-image.jpg",
+                  "heading" : " This is placeholder heading for hero overlay",
+                  "subText": "This is placeholder subText for hero overlay"
                 }
               }
             }
