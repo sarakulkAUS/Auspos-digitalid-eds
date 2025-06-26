@@ -46,7 +46,7 @@
         "valueType": "string",
         "name": "image",
         "label": "App Images",
-        "multi": true
+        "multi": false
       }
       ]
     }
