@@ -221,7 +221,7 @@
       {
         "component": "reference",
         "valueType": "string",
-        "name": "image",
+        "name": "heroImage",
         "label": "Hero Image",
         "multi": false
       },
@@ -242,7 +242,7 @@
       {
         "component": "reference",
         "valueType": "string",
-        "name": "image",
+        "name": "appImage",
         "label": "App Images",
         "multi": true
       }
