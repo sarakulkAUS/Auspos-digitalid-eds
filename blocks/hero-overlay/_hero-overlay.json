@@ -25,7 +25,8 @@
         "valueType": "string",
         "name": "image",
         "label": "Hero Image",
-        "multi": false
+        "multi": false,
+        "value": ""
       },
       {
         "component": "richtext",
@@ -46,7 +47,8 @@
         "valueType": "string",
         "name": "image",
         "label": "App Images",
-        "multi": false
+        "multi": false,
+        "value": ""
       }
       ]
     }
