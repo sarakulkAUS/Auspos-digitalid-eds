@@ -226,14 +226,14 @@
         "multi": false
       },
       {
-        "component": "title",
+        "component": "richtext",
         "valueType": "string",
         "name": "heading",
         "label": "Heading",
         "value": ""
       },
       {
-        "component": "text-area",
+        "component": "richtext",
         "name": "subText",
         "label": "SubText",
         "valueType": "string",
