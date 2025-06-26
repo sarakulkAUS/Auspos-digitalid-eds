@@ -25,18 +25,17 @@
         "valueType": "string",
         "name": "image",
         "label": "Hero Image",
-        "multi": false,
-        "value": ""
+        "multi": false
       },
       {
-        "component": "richtext",
+        "component": "title",
         "valueType": "string",
         "name": "heading",
         "label": "Heading",
         "value": ""
       },
       {
-        "component": "richtext",
+        "component": "text-area",
         "name": "subText",
         "label": "SubText",
         "valueType": "string",
@@ -47,8 +46,7 @@
         "valueType": "string",
         "name": "image",
         "label": "App Images",
-        "multi": false,
-        "value": ""
+        "multi": true
       }
       ]
     }

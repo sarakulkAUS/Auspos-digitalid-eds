@@ -219,28 +219,28 @@
     "id": "hero-overlay",
     "fields": [
       {
-        "component": "image",
+        "component": "reference",
         "valueType": "string",
         "name": "image",
         "label": "Hero Image",
         "multi": false
       },
       {
-        "component": "richtext",
+        "component": "title",
         "valueType": "string",
-        "name": "heading-text",
+        "name": "heading",
         "label": "Heading",
         "value": ""
       },
       {
-        "component": "richtext",
-        "name": "sub-heading-text",
-        "label": "SubHeading",
+        "component": "text-area",
+        "name": "subText",
+        "label": "SubText",
         "valueType": "string",
         "value": ""
       },
       {
-        "component": "image",
+        "component": "reference",
         "valueType": "string",
         "name": "image",
         "label": "App Images",
