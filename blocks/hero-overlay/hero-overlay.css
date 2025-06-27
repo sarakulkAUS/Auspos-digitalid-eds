@@ -55,8 +55,13 @@
     p {
         display: flex;
         gap: 20px;
-        font-size: 14px;
+        font-size: var(--body-font-size-m);
     }
+    h1,
+    h2 {
+        font-size: var(--heading-font-size-xxl);
+    }
+
     .hero-overlay--text {
         color: #4d4d54;
         font-size: 16px;
@@ -101,17 +106,10 @@
     .hero-overlay-block {
         padding: 8px;
 
-        h1,
-        h2 {
-            font-size: 1.2em;
-        }
-
-        p {
-            font-size: 0.9em;
-        }
-
         picture {
             width: 100%;
+            max-width: 110px;
+            margin-left: 0;
             height: auto;
         }
     }

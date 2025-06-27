@@ -70,6 +70,49 @@
   }
 }
 
+@media (max-width: 900px) {
+  :root {
+    --body-font-size-m: 17px;
+    --body-font-size-s: 15px;
+    --body-font-size-xs: 13px;
+    --heading-font-size-xxl: 36px;
+    --heading-font-size-xl: 30px;
+    --heading-font-size-l: 24px;
+    --heading-font-size-m: 20px;
+    --heading-font-size-s: 18px;
+    --heading-font-size-xs: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  :root {
+    --body-font-size-m: 15px;
+    --body-font-size-s: 13px;
+    --body-font-size-xs: 12px;
+    --heading-font-size-xxl: 28px;
+    --heading-font-size-xl: 22px;
+    --heading-font-size-l: 18px;
+    --heading-font-size-m: 16px;
+    --heading-font-size-s: 15px;
+    --heading-font-size-xs: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  :root {
+    --body-font-size-m: 13px;
+    --body-font-size-s: 12px;
+    --body-font-size-xs: 11px;
+    --heading-font-size-xxl: 20px;
+    --heading-font-size-xl: 18px;
+    --heading-font-size-l: 16px;
+    --heading-font-size-m: 14px;
+    --heading-font-size-s: 13px;
+    --heading-font-size-xs: 12px;
+  }
+}
+
+
 body {
   display: none;
   margin: 0;
@@ -233,7 +276,7 @@ main > .section {
 }
 
 main > .section > div {
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: auto;
   padding: 0 24px;
 }
