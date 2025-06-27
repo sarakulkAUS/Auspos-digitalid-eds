@@ -36,12 +36,12 @@
         },
         {
           "component": "multiselect",
-          "name": "style",
+          "name": "classes",
           "label": "Style",
           "options": [
             {
-              "name": "Highlight",
-              "value": "highlight"
+              "name": "highlight",
+              "value": "bg-highlight"
             }
           ]
         }
