@@ -1,6 +1,13 @@
+/* Alternate background color for columns: #f4f4f4 and white */
+.columns{
+  padding: 50px 0;
+}
 .columns > div {
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+  padding-top: 50px;
+  max-width: 1200px;
 }
 
 .columns img {
@@ -23,11 +30,14 @@
   .columns > div {
     align-items: center;
     flex-direction: unset;
-    gap: 24px;
+    gap: 50px;
   }
 
   .columns > div > div {
     flex: 1;
     order: unset;
   }
+}
+.columns.highlight{
+  background-color: var(--light-color);
 }

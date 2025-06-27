@@ -272,7 +272,11 @@ main > .section:first-of-type {
 
 @media (width >= 900px) {
   main > .section > div {
-    padding: 0;
+    padding:0;
+  }
+  section p,
+  section h1{
+    padding: 20px;
   }
 }
 
