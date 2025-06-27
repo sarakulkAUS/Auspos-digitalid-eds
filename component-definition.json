@@ -122,8 +122,8 @@
                 "template": {
                   "columns": "2",
                   "rows": "1",
-                  "model": "columns",
-                  "style": ""
+                  "style": "highlight",
+                  "model": "columns"
                 }
               }
             }
