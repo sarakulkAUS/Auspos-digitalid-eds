@@ -183,7 +183,7 @@
         "label": "Rows"
       },
       {
-        "component": "multiselect",
+        "component": "select",
         "name": "classes",
         "label": "Style",
         "valueType": "string",
@@ -191,6 +191,10 @@
           {
             "name": "highlight",
             "value": "bg-highlight"
+          },
+          {
+            "name": "white",
+            "value": "bg-white"
           }
         ]
       }
