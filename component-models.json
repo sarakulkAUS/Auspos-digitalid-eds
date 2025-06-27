@@ -183,9 +183,10 @@
         "label": "Rows"
       },
       {
-        "component": "multiselect",
+        "component": "select",
         "name": "style",
         "label": "Style",
+        "valueType": "string",
         "options": [
           {
             "name": "Highlight",
