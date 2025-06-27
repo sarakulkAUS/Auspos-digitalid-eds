@@ -1,7 +1,8 @@
 .hero-banner {
     width: 100%;
     height: 100%;
-    font-family: APTypeProText, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+    font-family: APTypeProText, -apple-system, system-ui, BlinkMacSystemFont,
+        Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
 }
 
 .hero-banner-block {
@@ -36,7 +37,7 @@
     object-position: center top;
 }
 
-.hero-overlay {
+.hero-overlay-block {
     position: absolute;
     top: 20%;
     margin-left: 100px;
@@ -48,7 +49,8 @@
     padding: 30px;
     max-width: 400px;
     background-color: white;
-    font-family: APTypeProText, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+    font-family: APTypeProText, -apple-system, system-ui, BlinkMacSystemFont,
+        Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
 
     p {
         display: flex;
@@ -68,7 +70,7 @@
         display: block;
         position: static;
     }
-    .hero-overlay {
+    .hero-overlay-block {
         position: static;
         top: 0;
         left: auto;
@@ -76,7 +78,7 @@
         margin-left: 0;
         margin-top: 10px;
         width: 100%;
-        max-width: 100vw;;
+        max-width: 100vw;
         box-sizing: border-box;
         z-index: auto;
     }
@@ -96,10 +98,11 @@
 }
 
 @media (max-width: 400px) {
-    .hero-overlay {
+    .hero-overlay-block {
         padding: 8px;
-        
-        h1, h2 {
+
+        h1,
+        h2 {
             font-size: 1.2em;
         }
 
