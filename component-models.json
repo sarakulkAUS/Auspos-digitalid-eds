@@ -183,7 +183,7 @@
         "label": "Rows"
       },
       {
-        "component": "select",
+        "component": "multiselect",
         "name": "style",
         "label": "Style",
         "valueType": "string",
