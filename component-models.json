@@ -39,7 +39,7 @@
       },
       {
         "component": "aem-content",
-        "name": "link",
+        "name": "imageLink",
         "label": "Link"
       }
     ]
