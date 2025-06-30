@@ -1,0 +1,7 @@
+.image-link{
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
