@@ -53,5 +53,4 @@ export default function decorate(block) {
   });
 
   block.append(heroBanner);
-  console.log("Hero Overlay Block", block);
 }
