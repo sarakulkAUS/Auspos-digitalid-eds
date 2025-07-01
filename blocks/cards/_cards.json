@@ -38,16 +38,42 @@
         {
           "component": "reference",
           "valueType": "string",
-          "name": "image",
-          "label": "Image",
+          "name": "icon",
+          "label": "Icon",
           "multi": false
         },
         {
           "component": "richtext",
-          "name": "text",
+          "name": "title",
           "value": "",
-          "label": "Text",
+          "label": "Title",
           "valueType": "string"
+        },
+        {
+          "component": "richtext",
+          "name": "description",
+          "value": "",
+          "label": "Description",
+          "valueType": "string"
+        },
+        {
+          "component": "multiselect",
+          "name": "classes",
+          "label": "Style",
+          "options": [
+            {
+              "name": "card with icon",
+              "value": "card-with-icon"
+            },
+            {
+              "name": "icon-centered",
+              "value": "icon-center"
+            },
+            {
+              "name": "icon-left",
+              "value": "icon-left"
+            }
+          ]
         }
       ]
     }
