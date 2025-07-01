@@ -187,10 +187,14 @@
         "valueType": "string"
       },
       {
-        "component":"multiselect",
+        "component": "multiselect",
         "name": "classes",
         "label": "Style",
         "options": [
+          {
+            "name": "card with icon",
+            "value": "card-with-icon"
+          },
           {
             "name": "icon-centered",
             "value": "icon-center"
@@ -308,4 +312,3 @@
     ]
   }
 ]
-
