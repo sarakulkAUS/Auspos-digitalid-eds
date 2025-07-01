@@ -1,5 +1,5 @@
 {
-  "project": "AEM XWalk Boilerplate",
+  "project": "Auspos Digital ID EDS",
   "editUrlLabel": "AEM Editor",
   "editUrlPattern": "{{contentSourceUrl}}{{pathname}}?cmd=open"
 }

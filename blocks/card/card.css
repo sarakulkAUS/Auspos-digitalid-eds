@@ -1,0 +1,43 @@
+.card{ 
+    display: flex;
+
+    &.card-with-icon{
+        display: flex;
+        flex-direction: column;
+
+        &.icon-center{
+            margin-right: 8px;
+            width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &.icon-left{
+            flex-direction: row;
+            .icon{
+                margin-right: 8px;
+                width: 24px;
+                height: 24px;
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+            }
+        }
+
+        .title{
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            color: var(--text-color);
+        }
+
+        .description{
+            font-size: 14px;
+            line-height: 20px;
+            color: var(--text-color);
+        }
+    }
+
+}
