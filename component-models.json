@@ -150,7 +150,7 @@
         "description": "The label shown for this section in the Content Tree"
       },
       {
-        "component": "multiselect",
+        "component": "select",
         "name": "style",
         "label": "Style",
         "options": [
@@ -164,7 +164,18 @@
           },
           {
             "name": "Center",
-            "value": "center"
+            "value": "text-align-center"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Text Alignment",
+        "options": [
+         {
+            "name": "Center",
+            "value": "text-align-center"
           }
         ]
       }
