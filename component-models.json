@@ -166,7 +166,7 @@
       },
       {
         "component": "select",
-        "name": "style",
+        "name": "classes",
         "label": "Text Alignment",
         "options": [
           {
