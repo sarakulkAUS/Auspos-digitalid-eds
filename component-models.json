@@ -154,22 +154,18 @@
         "name": "style",
         "label": "Background highlight",
         "options": [
-          [
-            {
-              "name": "Default",
-              "value": ""
-            },
-            {
-              "name": "Highlight",
-              "value": "highlight"
-            }
-          ],
-          [
-            {
-              "name": "Center",
-              "value": "text-align-center"
-            }
-          ]
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Highlight",
+            "value": "highlight"
+          },
+          {
+            "name": "Text Alignment | Center",
+            "value": "text-align-center"
+          }
         ]
       }
     ]
