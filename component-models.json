@@ -154,29 +154,22 @@
         "name": "style",
         "label": "Background highlight",
         "options": [
-          {
-            "name": "Default",
-            "value": ""
-          },
-          {
-            "name": "Highlight",
-            "value": "highlight"
-          }
-        ]
-      },
-      {
-        "component": "select",
-        "name": "classes",
-        "label": "Text Alignment",
-        "options": [
-          {
-            "name": "Default",
-            "value": ""
-          },
-          {
-            "name": "Center",
-            "value": "text-align-center"
-          }
+          [
+            {
+              "name": "Default",
+              "value": ""
+            },
+            {
+              "name": "Highlight",
+              "value": "highlight"
+            }
+          ],
+          [
+            {
+              "name": "Center",
+              "value": "text-align-center"
+            }
+          ]
         ]
       }
     ]
