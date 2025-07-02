@@ -152,28 +152,28 @@
       {
         "component": "select",
         "name": "style",
-        "label": "Style",
+        "label": "Background highlight",
         "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
           {
             "name": "Highlight",
             "value": "highlight"
-          },
-          {
-            "name": "-------- Text Alignment ---------",
-            "value":""
-          },
-          {
-            "name": "Center",
-            "value": "text-align-center"
           }
         ]
       },
       {
         "component": "select",
-        "name": "classes",
+        "name": "style",
         "label": "Text Alignment",
         "options": [
-         {
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
             "name": "Center",
             "value": "text-align-center"
           }
