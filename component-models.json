@@ -157,6 +157,14 @@
           {
             "name": "Highlight",
             "value": "highlight"
+          },
+          {
+            "name": "-------- Text Alignment ---------",
+            "value":""
+          },
+          {
+            "name": "Center",
+            "value": "center"
           }
         ]
       }
