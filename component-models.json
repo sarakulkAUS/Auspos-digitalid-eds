@@ -231,12 +231,20 @@
         "valueType": "string",
         "options": [
           {
-            "name": "highlight",
+            "name": "columns | Highlight",
             "value": "bg-highlight"
           },
           {
-            "name": "white",
+            "name": "Columns | white",
             "value": "bg-white"
+          },
+          {
+            "name": "card with icon | Left",
+            "value": "card-icon-left"
+          },
+          {
+            "name": "card with icon | Center",
+            "value": "card-icon-center"
           }
         ]
       }

@@ -35,17 +35,25 @@
           "label": "Rows"
         },
         {
-          "component": "select",
+          "component": "multiselect",
           "name": "classes",
           "label": "Style",
           "options": [
             {
-              "name": "highlight",
+              "name": "columns | Highlight",
               "value": "bg-highlight"
             },
             {
-              "name": "white",
+              "name": "Columns | white",
               "value": "bg-white"
+            },
+            {
+              "name": "card with icon | Left",
+              "value": "card-icon-left"
+            },
+            {
+              "name": "card with icon | Center",
+              "value": "card-icon-center"
             }
           ]
         }
@@ -55,19 +63,11 @@
   "filters": [
     {
       "id": "columns",
-      "components": [
-        "column"
-      ]
+      "components": ["column"]
     },
     {
       "id": "column",
-      "components": [
-        "text",
-        "image",
-        "button",
-        "title",
-        "card"
-      ]
+      "components": ["text", "image", "button", "title", "card"]
     }
   ]
 }

@@ -45,3 +45,37 @@
 .columns.bg-white {
     background-color: white;
 }
+
+.columns{
+    &.card-icon-center{
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+
+        img{
+            width: 40px;
+            height:40px;
+        }
+        h3{
+            font-size: 1.3rem;
+            margin: 10px 0;
+        }
+
+    }
+    &.card-icon-left{
+        padding: 20px;
+        border-radius: 10px;
+        text-align: left;
+
+        img{
+            width: 40px;
+            height:40px;
+        }
+        h3{
+            font-size: 1.3rem;
+            margin: 10px 0;
+        }
+
+    }
+    
+}
