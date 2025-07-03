@@ -195,17 +195,17 @@
         "valueType": "string"
       },
       {
-        "component": "text",
-        "name": "link",
+        "component": "aem-content",
+        "name": "cta",
         "value": "",
-        "label": "CTA",
+        "label": "CTA Link",
         "valueType": "string"
       },
       {
-        "component": "aem-content",
-        "name": "linkText",
+        "component": "text",
+        "name": "ctaText",
         "value": "",
-        "label": "CTA Link",
+        "label": "CTA Label",
         "valueType": "string"
       }
     ]
@@ -250,8 +250,8 @@
             "value": "card-icon-center"
           },
           {
-            "name":"Card",
-            "value":"cards"
+            "name": "Card",
+            "value": "cards"
           }
         ]
       }
