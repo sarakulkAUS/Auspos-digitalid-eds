@@ -13,18 +13,10 @@
       "button",
       "title",
       "hero",
-      "cards",
       "columns",
       "fragment",
       "hero-overlay",
-      "image-link",
-      "card"
-    ]
-  },
-  {
-    "id": "cards",
-    "components": [
-      "card"
+      "image-link"
     ]
   },
   {

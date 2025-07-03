@@ -40,21 +40,25 @@
           "label": "Style",
           "options": [
             {
-              "name": "columns | Highlight",
-              "value": "bg-highlight"
-            },
-            {
-              "name": "Columns | white",
-              "value": "bg-white"
-            },
-            {
-              "name": "card with icon | Left",
-              "value": "card-icon-left"
-            },
-            {
-              "name": "card with icon | Center",
-              "value": "card-icon-center"
-            }
+            "name": "Columns | Highlight",
+            "value": "bg-highlight"
+          },
+          {
+            "name": "Columns | white",
+            "value": "bg-white"
+          },
+          {
+            "name": "Card with icon | Left",
+            "value": "card-icon-left"
+          },
+          {
+            "name": "Card with icon | Center",
+            "value": "card-icon-center"
+          },
+          {
+            "name":"Card",
+            "value":"cards"
+          }
           ]
         }
       ]
