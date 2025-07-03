@@ -98,6 +98,25 @@
             "value": "h6"
           }
         ]
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Title Alignment",
+        "options": [
+          {
+            "name": "Center",
+            "value": "title-alignemnt-center"
+          },
+          {
+            "name": "Left",
+            "value": "title-alignemnt-left"
+          },
+          {
+            "name": "Right",
+            "value": "title-alignemnt-right"
+          }
+        ]
       }
     ]
   },
