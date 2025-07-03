@@ -332,7 +332,7 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "headingText",
+        "name": "heading",
         "label": "Heading",
         "value": ""
       },
