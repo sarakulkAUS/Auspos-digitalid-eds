@@ -36,14 +36,12 @@
               "page": {
                 "resourceType": "core/franklin/components/title/v1/title",
                 "template": {
-                  "model": "title",
-                  "classes": "title-alignemnt-center"
+                  "model": "title"
                 }
               }
             }
           }
         },
-        
         {
           "title": "Button",
           "id": "button",
