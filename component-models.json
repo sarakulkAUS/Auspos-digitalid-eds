@@ -69,7 +69,7 @@
         "label": "Title"
       },
       {
-        "component": "multiselect",
+        "component": "select",
         "name": "titleType",
         "label": "Title Type",
         "options": [
@@ -96,6 +96,18 @@
           {
             "name": "h6",
             "value": "h6"
+          },
+          {
+            "name": "Center",
+            "value": "title-alignemnt-center"
+          },
+          {
+            "name": "Left",
+            "value": "title-alignemnt-left"
+          },
+          {
+            "name": "Right",
+            "value": "title-alignemnt-right"
           }
         ]
       }
@@ -327,35 +339,35 @@
     ]
   },
   {
-    "name":"heading",
-    "fields":[
+    "id": "heading",
+    "fields": [
       {
         "component": "text",
         "valueType": "string",
-        "name" : "headingText",
-        "label" : "Heading",
-        "multi" : false
+        "name": "headingText",
+        "label": "Heading",
+        "value": ""
       },
       {
-        "component" : "select",
-        "valueType" : "string",
-        "name" : "classes",
-        "label" : "Heading Alignment",
-        "options" :[
+        "component": "select",
+        "name": "classes",
+        "label": "Heading Alignment",
+        "options": [
           {
             "name": "Center",
-            "value": "title-alignemnt-center"
+            "value": "heading-alignemnt-center"
           },
           {
             "name": "Left",
-            "value": "title-alignemnt-left"
+            "value": "heading-alignemnt-left"
           },
           {
             "name": "Right",
-            "value": "title-alignemnt-right"
+            "value": "heading-alignemnt-right"
           }
         ]
       }
     ]
   }
+
 ]

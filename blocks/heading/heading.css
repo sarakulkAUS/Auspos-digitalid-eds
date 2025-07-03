@@ -1,17 +1,17 @@
 .heading {
-    text-alignment-center {
+    .heading-alignment-center {
         * {
             text-align: center;
         }
     }
 
-    .text-alignment-left {
+    .heading-alignment-left {
         * {
             text-align: left;
         }
     }
 
-    .text-alignment-right {
+    .heading-alignment-right {
         * {
             text-align: right;
         }
