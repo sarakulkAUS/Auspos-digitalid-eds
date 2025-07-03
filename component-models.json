@@ -103,6 +103,8 @@
         "component": "select",
         "name": "classes",
         "label": "Title Alignment",
+        "valueType": "string",
+        "value" : "",
         "options": [
           {
             "name": "Center",
