@@ -196,14 +196,14 @@
       },
       {
         "component": "text",
-        "name": "cardCta",
+        "name": "link",
         "value": "",
         "label": "CTA",
         "valueType": "string"
       },
       {
         "component": "aem-content",
-        "name": "cardCtaLink",
+        "name": "linkText",
         "value": "",
         "label": "CTA Link",
         "valueType": "string"
