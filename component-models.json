@@ -96,18 +96,6 @@
           {
             "name": "h6",
             "value": "h6"
-          },
-          {
-            "name": "Center",
-            "value": "title-alignemnt-center"
-          },
-          {
-            "name": "Left",
-            "value": "title-alignemnt-left"
-          },
-          {
-            "name": "Right",
-            "value": "title-alignemnt-right"
           }
         ]
       }
@@ -335,6 +323,38 @@
         "name": "appImage",
         "label": "App Images",
         "multi": true
+      }
+    ]
+  },
+  {
+    "name":"heading",
+    "fields":[
+      {
+        "component": "text",
+        "valueType": "string",
+        "name" : "headingText",
+        "label" : "Heading",
+        "multi" : false
+      },
+      {
+        "component" : "select",
+        "valueType" : "string",
+        "name" : "classes",
+        "label" : "Heading Alignment",
+        "options" :[
+          {
+            "name": "Center",
+            "value": "title-alignemnt-center"
+          },
+          {
+            "name": "Left",
+            "value": "title-alignemnt-left"
+          },
+          {
+            "name": "Right",
+            "value": "title-alignemnt-right"
+          }
+        ]
       }
     ]
   }

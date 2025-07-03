@@ -3,20 +3,3 @@
         text-align: center;
     }
 }
-.text-alignment-center {
-    * {
-        text-align: center;
-    }
-}
-
-.text-alignment-left {
-    * {
-        text-align: left;
-    }
-}
-
-.text-alignment-right {
-    * {
-        text-align: right;
-    }
-}
