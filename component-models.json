@@ -101,7 +101,7 @@
       },
       {
         "component": "select",
-        "name": "style",
+        "name": "titleId",
         "label": "Title Alignment",
         "valueType": "string",
         "value" : "",
