@@ -36,13 +36,7 @@ export default function decorate(block) {
 
   // Append overlay as sibling to picture inside hero-banner--elements
   if (heroBannerElements) {
-    // If picture exists, insert overlay after it
-    const picture = heroBannerElements.querySelector("picture");
-    if (picture) {
-      picture.insertAdjacentElement("afterend", heroBannerTexts);
-    } else {
-      heroBannerElements.append(heroBannerTexts);
-    }
+    heroBannerElements.insertBefore(heroBannerTexts, heroBannerElements.firstChild);
   }
 
   heroBanner.append(heroBannerElements);
