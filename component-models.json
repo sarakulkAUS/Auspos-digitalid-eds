@@ -432,6 +432,7 @@
         "component": "select",
         "name": "classes",
         "label": "Link Style",
+        "valueType":"string",
         "options": [
           {
             "name": "Quicklinks",
