@@ -205,20 +205,6 @@
           }
         },
         {
-          "title": "Links",
-          "id": "links",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block/item",
-                "template": {
-                  "name": "Links"
-                }
-              }
-            }
-          }
-        },
-        {
           "title": "Quicklinks",
           "id": "quicklinks",
           "plugins": {
@@ -228,7 +214,21 @@
                 "template": {
                   "model": "quicklinks",
                   "filter": "quicklinks"
-
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Links",
+          "id": "links",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Links",
+                  "model": "links"
                 }
               }
             }

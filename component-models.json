@@ -420,27 +420,6 @@
     ]
   },
   {
-    "id": "quicklinks",
-    "fields": [
-      {
-        "component": "select",
-        "name": "classes",
-        "value": "",
-        "label": "Styles",
-        "options": [
-          {
-            "name": "Quicklinks",
-            "value": "quicklinks"
-          },
-          {
-            "name": "Secondary Links",
-            "value": "secondary-links"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "links",
     "fields": [
       {
