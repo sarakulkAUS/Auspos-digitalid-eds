@@ -435,11 +435,11 @@
         "valueType":"string",
         "options": [
           {
-            "name": "Quicklinks",
-            "value": "quicklinks"
+            "name": "Primary",
+            "value": "primary-links"
           },
           {
-            "name": "Secondary Links",
+            "name": "Secondary",
             "value": "secondary-links"
           }
         ]
