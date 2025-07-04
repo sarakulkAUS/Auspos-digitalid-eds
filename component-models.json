@@ -423,10 +423,15 @@
     "id": "quicklinks",
     "fields": [
       {
+        "component": "text",
+        "name": "quicklinksTitle",
+        "label": "Title",
+        "valueType": "string"
+      },
+      {
         "component": "select",
         "name": "classes",
-        "value": "",
-        "label": "Link Styles",
+        "label": "Link Style",
         "options": [
           {
             "name": "Quicklinks",
