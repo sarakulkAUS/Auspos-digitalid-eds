@@ -1,0 +1,75 @@
+.quicklinks {
+    max-width: 500px;
+    height: auto;
+    position: relative;
+    padding: 20px 10px;
+    background-color: var(--background-color);
+
+    .title {
+        font-size: var(--heading-font-size-m);
+        font-weight: 500;
+    }
+    .title:hover {
+        color: #dc1928;
+        transition: color 0.3s ease-in-out;
+    }
+
+    ul > li {
+        list-style-type: none;
+        padding: unset;
+        margin: unset;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #4d4d54;
+        font-weight: 300;
+    }
+
+    /* ------- PRIMARY LINKS --------- */
+    &.primary-links {
+        ul {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: unset;
+            gap: 5px;
+            li {
+                a:before {
+                    content: "";
+                    padding-right: 10px;
+                    background-image: url("/icons/link-chevron.svg");
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                    width: 10px;
+                    height: 10px;
+                }
+                a:hover:before {
+                    color: #5b5b67;
+                    background-image: url("/icons/link-chevron.svg");
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                    transform: translate3d(5px, 0, 0);
+                    transition: transform 0.3s ease-in-out;
+                }
+            }
+        }
+    }
+
+    &.secondary-links {
+        display: flex;
+        ul {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            padding: unset;
+            li {
+                a:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
