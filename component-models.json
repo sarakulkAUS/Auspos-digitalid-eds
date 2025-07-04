@@ -387,6 +387,76 @@
         ]
       }
     ]
+  },
+  {
+    "id": "heading",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "heading",
+        "label": "Heading",
+        "value": ""
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Heading Alignment",
+        "options": [
+          {
+            "name": "Center",
+            "value": "heading-center"
+          },
+          {
+            "name": "Left",
+            "value": "heading-left"
+          },
+          {
+            "name": "Right",
+            "value": "heading-right"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "quicklinks",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "value": "",
+        "label": "Styles",
+        "options": [
+          {
+            "name": "Quicklinks",
+            "value": "quicklinks"
+          },
+          {
+            "name": "Secondary Links",
+            "value": "secondary-links"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "links",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "linkText",
+        "value": "",
+        "label": "Label",
+        "valueType": "string"
+      },
+      {
+        "component": "aem-content",
+        "name": "link",
+        "value": "",
+        "label": "Link",
+        "valueType": "string"
+      }
+    ]
   }
-
 ]

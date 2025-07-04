@@ -203,6 +203,21 @@
               }
             }
           }
+        },
+        {
+          "title": "Links",
+          "id": "links",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Links",
+                  "filter": "links"
+                }
+              }
+            }
+          }
         }
       ]
     }

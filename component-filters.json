@@ -17,7 +17,8 @@
       "fragment",
       "hero-overlay",
       "image-link",
-      "heading"
+      "heading",
+      "quicklinks"
     ]
   },
   {
@@ -34,6 +35,12 @@
       "button",
       "title",
       "card"
+    ]
+  },
+   {
+    "id": "quicklinks",
+    "components": [
+      "links"
     ]
   }
 ]
