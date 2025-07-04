@@ -420,10 +420,31 @@
     ]
   },
   {
+    "id": "quicklinks",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "value": "",
+        "label": "Link Styles",
+        "options": [
+          {
+            "name": "Quicklinks",
+            "value": "quicklinks"
+          },
+          {
+            "name": "Secondary Links",
+            "value": "secondary-links"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "links",
     "fields": [
       {
-        "component": "richtext",
+        "component": "text",
         "name": "linkText",
         "value": "",
         "label": "Label",
