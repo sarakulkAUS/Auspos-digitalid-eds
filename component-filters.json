@@ -36,11 +36,5 @@
       "title",
       "card"
     ]
-  },
-  {
-    "id": "quicklinks",
-    "components": [
-      "links"
-    ]
   }
 ]

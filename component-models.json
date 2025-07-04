@@ -423,8 +423,8 @@
     "id": "quicklinks",
     "fields": [
       {
-        "component": "text",
-        "name": "quicklinksTitle",
+        "component": "richtext",
+        "name": "quicklinksText",
         "label": "Title",
         "valueType": "string"
       },
@@ -443,25 +443,6 @@
             "value": "secondary-links"
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "links",
-    "fields": [
-      {
-        "component": "text",
-        "name": "linkText",
-        "value": "",
-        "label": "Label",
-        "valueType": "string"
-      },
-      {
-        "component": "aem-content",
-        "name": "link",
-        "value": "",
-        "label": "Link",
-        "valueType": "string"
       }
     ]
   }
