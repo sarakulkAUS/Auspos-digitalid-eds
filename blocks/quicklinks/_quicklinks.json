@@ -35,7 +35,6 @@
     {
       "id": "links",
       "fields": [
-        
         {
           "component": "richtext",
           "name": "linkText",
@@ -56,9 +55,11 @@
   "filters": [
     {
       "id": "quicklinks",
-      "components": [
-        "links"
-      ]
+      "components": ["links"]
+    },
+    {
+        "id": "links",
+        "components":["links"]
     }
   ]
 }
