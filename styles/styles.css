@@ -281,7 +281,6 @@ main img {
 /* sections */
 main > .section {
     margin: 0 auto;
-    max-width: 1500px;
 }
 
 main > .section > div {
